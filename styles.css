@@ -60,3 +60,7 @@ button {
 .percent {
     background-color: dodgerblue;
 }
+
+.num, .point {
+    background-color: rgb(39, 88, 100);
+}
