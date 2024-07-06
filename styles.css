@@ -1,10 +1,17 @@
+body {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
 .main {
     display: flex;
     flex-direction: column;
     width: 465px;
-    border: 5px solid rgba(29, 29, 29, 0.329);
+    border: 5px solid black;
     padding: 2px;
-    background-color: black;
+    background-color: #414756;
+    border-radius: 10px;
 }
 
 .btn-container {
@@ -32,11 +39,16 @@ button:not(#zero) {
     height: 30px;
     margin-bottom: 0;
     border-bottom: 0;
+    text-align: end;
+    font-size: 1rem;
 }
 
 #result {
     height: 70px;
     border-top: 0;
+    text-align: end;
+    font-size: 3rem;
+
 }
 
 #zero {
@@ -48,22 +60,25 @@ button {
     height: 100px;
     border-radius: 10px;
     margin: 0;
-    color: rgb(230, 230, 230);
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 700;
+    color: black;
+    border: 1px solid black;
+    
 }
 
 .operator,
 .equals {
-    background-color: #FF8F1F;
+    background-color: #E76A05;
 }
 
 .clear,
 .sign,
 .percent {
-    background-color: dodgerblue;
+    background-color: #1e90ff;
 }
 
 .num, .point {
-    background-color: rgb(39, 88, 100);
+    background-color: #00ADAE;
 }
+
