@@ -38,7 +38,7 @@ function operate(operator, num1, num2) {
 const display = document.querySelector('#expression');
 
 function appendDisplay(input) {
-    display.value += input
+    display.value = num1 + ' ' + operator + ' ' + num2;
 }
 
 function resultDisplay(value){
